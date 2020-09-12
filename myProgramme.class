@@ -1,0 +1,14 @@
+import java.util.Scanner;
+// Enter the circle radius in scanner
+
+public class myFirstProgramme
+{
+    public static void main(String[] args) {
+    Scanner scn1 = new Scanner(System.in);
+    
+    double n1,n2;
+    n1 = scn1.nextDouble();
+    n2 = 3.1416;
+    System.out.println ("The Area of the circle is "+n2*(n1*n1));
+    }
+}
